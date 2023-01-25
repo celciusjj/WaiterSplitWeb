@@ -86,7 +86,7 @@ const Modal = () => {
                         </button>
                     </div>
                     <Input
-                        onChange={(e) => setClient(e.target.value)}
+                        onChange={(e) => setClient(e.target.value.toUpperCase())}
                         width={"400px"}
                         placeholder="Nombres y apellidos del cliente">
                     </Input>

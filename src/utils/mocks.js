@@ -43,5 +43,20 @@ export const foodProducts = [
         name: "Hamburguesa",
         price: 15000,
         url: "https://storage.contextoganadero.com/s3fs-public/cronica_de_la_semana/field_image/2022-03/cronica-origen-hamburguesas.jpg"
+    },
+    {
+        name: "Papas chips",
+        price: 10000,
+        url: "https://i.blogs.es/5c1a48/patatas-chips-en-microondas/840_560.jpg"
+    },
+    {
+        name: "Perro grasoso",
+        price: 14000,
+        url: "https://fastly.4sqi.net/img/general/600x600/72194958_6C7UZ35AEzVbgdh3VVX_1cQf1J_qaHspc89C9AXd5Z8.jpg"
+    },
+    {
+        name: "Manzana postobon",
+        price: 3000,
+        url: "https://copservir.vtexassets.com/arquivos/ids/762990/GASEOSA-MANZANA-POSTOBON_F.png?v=637950263917200000"
     }
 ]

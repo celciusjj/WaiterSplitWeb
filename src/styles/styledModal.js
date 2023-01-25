@@ -81,7 +81,6 @@ export const ModalCloseBtn = styled.button`
   touch-action: manipulation;
   &:hover {
   background-position: right center;
-  /* change the direction of the change here */
   color: #000;
   text-decoration: none;
 }
@@ -113,7 +112,6 @@ export const ModalConfirmBtn = styled.button`
 
 &:hover {
   background-position: right center;
-  /* change the direction of the change here */
   color: #000;
   text-decoration: none;
 }
