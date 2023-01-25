@@ -5,6 +5,7 @@ export const HeaderBar = styled.header`
     width: 100%;
     padding: 10px;
     z-index: 100;
+    top: 0;
     position: fixed;
     display: flex;
     justify-content: flex-end;
@@ -46,7 +47,6 @@ export const Button = styled.button`
   touch-action: manipulation;
 &:hover {
   background-position: right center;
-  /* change the direction of the change here */
   color: #000;
   text-decoration: none;
 }
