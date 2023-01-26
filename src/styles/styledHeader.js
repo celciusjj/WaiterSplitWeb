@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderBar = styled.header`
-    background-color: #009BFF;
+    background-color: ${props => props.theme.primaryBlue};
     width: 100%;
     padding: 10px;
     z-index: 100;
@@ -14,19 +14,6 @@ export const HeaderBar = styled.header`
     }
 `
 
-export const Label = styled.label`
-  position: absolute;
-  left: 15px;
-  top: 15px;
-  color: white;
-  font-size: 20px;
-  @media(max-width: 700px) {
-    left: 15px;
-    top: 16px;
-    font-size: 14px;
-    font-weight: normal;
-  }
-`
 export const Button = styled.button`
   margin-right: 50px;
   padding: 15px 30px;

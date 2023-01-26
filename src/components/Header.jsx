@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { HeaderBar, Button } from "../styles/styledHeader";
-import OrdersContext from '../context/OrdersProvider';
+import OrdersContext from "../context/OrdersProvider";
 
 const Header = () => {
     const { setIsModal } = useContext(OrdersContext);

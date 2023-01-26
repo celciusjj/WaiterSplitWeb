@@ -19,7 +19,7 @@ export const CheckContainer = styled.div`
 `
 
 export const CheckHeader = styled.div`
-    background-color: #009BFF;
+    background-color: ${props => props.theme.primaryBlue};
     width: 100%;
     position: absolute;
     top: 0;
@@ -34,7 +34,7 @@ export const CheckHeader = styled.div`
 `
 
 export const CheckFooter = styled.div`
-    background-color: #009BFF;
+    background-color: ${props => props.theme.primaryBlue};
     width: 100%;
     position: absolute;
     bottom: 0;
