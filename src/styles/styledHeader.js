@@ -9,6 +9,7 @@ export const HeaderBar = styled.header`
     position: fixed;
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     div {
         align-self: center;
     }

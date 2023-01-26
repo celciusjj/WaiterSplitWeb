@@ -60,7 +60,7 @@ const Modal = () => {
                 }
             }
             setOrders(data);
-            openSnackbar('Producto añadido.')
+            openSnackbar("Producto añadido: " +  productSelected.name);
         } else {
             openSnackbar('Debe ingresar un cliente.')
         }
@@ -83,7 +83,7 @@ const Modal = () => {
                         value={productName}
                         onChange={onChangeProductInput}
                         width={"400px"}
-                        placeholder="Ingrese el producto">
+                        placeholder="Ingrese el producto a buscar">
                     </Input>
                     <div style={{ display: "flex", flexDirection: "row" }}>
                         <button

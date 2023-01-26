@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CheckContainer, CheckHeader, CheckFooter } from "../styles/styledCheck";
+import { CheckContainer, CheckHeader, CheckFooter, Line } from "../styles/styledCheck";
 
 const Check = (props) => {
     const [isTip, setIsTip] = useState(false);
@@ -11,13 +11,12 @@ const Check = (props) => {
             </CheckHeader>
             <div>
                 {props.products.map(item => (
-                    <div>
+                    <div key={Math.random()}>
                         <p>{item.name} ${item.price}</p>
-                        <p></p>
                     </div>
                 ))}
             </div>
-            <hr />
+            <Line />
             <p>Total: ${props.total}</p>
             {isTip && <p>Total con propina: ${props.total + (props.total * 0.10)}</p>}
             <CheckFooter>
