@@ -7,6 +7,13 @@ export const ChecksContainer = styled.div`
  padding: 100px;
 `
 
+export const Line = styled.div`
+    margin: 10px 0px 10px 0px;
+    height: 1px;
+    background-color: #000;
+    align-self: stretch;
+`
+
 export const CheckContainer = styled.div`
   background-color: #fff;
   box-shadow: 2.3px 4.6px 4.6px hsl(0deg 0% 0% / 0.43);
@@ -19,7 +26,7 @@ export const CheckContainer = styled.div`
 `
 
 export const CheckHeader = styled.div`
-    background-color: #009BFF;
+    background-color: ${props => props.theme.primaryBlue};
     width: 100%;
     position: absolute;
     top: 0;
@@ -34,7 +41,7 @@ export const CheckHeader = styled.div`
 `
 
 export const CheckFooter = styled.div`
-    background-color: #009BFF;
+    background-color: ${props => props.theme.primaryBlue};
     width: 100%;
     position: absolute;
     bottom: 0;

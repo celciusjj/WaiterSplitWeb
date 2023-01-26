@@ -1,5 +1,5 @@
-import { useContext } from 'react';
-import OrdersContext from '../context/OrdersProvider';
+import { useContext } from "react";
+import OrdersContext from "../context/OrdersProvider";
 import Check from "../components/Check";
 import { ChecksContainer } from "../styles/styledCheck";
 

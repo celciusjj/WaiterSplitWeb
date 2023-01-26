@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-
-
 export const Input = styled.input`
   background-color: #B4D4FF;
   border-radius: 10px;
@@ -11,7 +9,7 @@ export const Input = styled.input`
   height: 40px;
   width: ${props => props.width};
   padding-left: 20px;
-  font-family: Roboto,sans-serif;
+  font-family: sofiapro;
   text-transform: uppercase;
   &:focus {
     outline-color: #64A5FF;
